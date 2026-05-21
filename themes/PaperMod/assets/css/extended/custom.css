@@ -1,0 +1,10 @@
+details a {
+    text-decoration: none;
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
+
+details a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}

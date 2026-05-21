@@ -1,0 +1,37 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: 'Kevin''s Profile'
+theme: 'PaperMod'
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: yes
+  ShowBreadCrumbs: true
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 2
+
+    - identifier: experience
+      name: Experience
+      url: /experience/
+      weight: 3
+
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 4

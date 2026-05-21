@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>SF Express Courier Manager System | Kevin&#39;s Profile</title>
+<meta name="keywords" content="">
+<meta name="description" content="Focused on aligning enterprise system architecture with operational workflows, business scalability, and organizational efficiency.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projects/sf-express-manager/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.ce1949ee1dc62e0b4adfb91e463d24a35906e4fd53adfd503fc1ed7f73c7e671.css" integrity="sha256-zhlJ7h3GLgtK37keRj0ko1kG5P1Trf1QP8Htf3PH5nE=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/sf-express-manager/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+
+  mermaid.initialize({ startOnLoad: false });
+
+  document.querySelectorAll('pre code.language-mermaid').forEach((block) => {
+    const parent = block.parentElement;
+    const graph = document.createElement('div');
+
+    graph.className = 'mermaid';
+    graph.innerHTML = block.textContent;
+
+    parent.replaceWith(graph);
+  });
+
+  mermaid.run();
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Kevin&#39;s Profile (Alt + H)">Kevin&#39;s Profile</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/experience/" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/projects/">Projects</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      SF Express Courier Manager System
+    </h1>
+    <div class="post-meta">
+
+
+
+</div>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#system-overview" aria-label="System Overview">System Overview</a></li>
+            <li>
+                <a href="#problem-statement--constraints" aria-label="Problem Statement &amp; Constraints">Problem Statement &amp; Constraints</a><ul>
+                    
+            <li>
+                <a href="#problem-statement" aria-label="Problem Statement">Problem Statement</a></li>
+            <li>
+                <a href="#business-constraints" aria-label="Business Constraints">Business Constraints</a></li>
+            <li>
+                <a href="#technical-constraints" aria-label="Technical Constraints">Technical Constraints</a></li></ul>
+            </li>
+            <li>
+                <a href="#system-architecture--high-level-design" aria-label="System Architecture &amp; High-Level Design">System Architecture &amp; High-Level Design</a><ul>
+                    
+            <li>
+                <a href="#architecture-diagram" aria-label="Architecture Diagram">Architecture Diagram</a></li>
+            <li>
+                <a href="#core-data-flow" aria-label="Core Data Flow">Core Data Flow</a></li>
+            <li>
+                <a href="#design-rationale" aria-label="Design Rationale">Design Rationale</a><ul>
+                    
+            <li>
+                <a href="#microservices-architecture" aria-label="Microservices Architecture">Microservices Architecture</a></li>
+            <li>
+                <a href="#mysql-for-transactional-consistency" aria-label="MySQL for Transactional Consistency">MySQL for Transactional Consistency</a></li>
+            <li>
+                <a href="#rabbitmq-for-asynchronous-processing" aria-label="RabbitMQ for Asynchronous Processing">RabbitMQ for Asynchronous Processing</a></li>
+            <li>
+                <a href="#redis-cache-layer" aria-label="Redis Cache Layer">Redis Cache Layer</a></li>
+            <li>
+                <a href="#elasticsearch-for-logistics-tracking" aria-label="Elasticsearch for Logistics Tracking">Elasticsearch for Logistics Tracking</a></li></ul>
+            </li></ul>
+            </li>
+            <li>
+                <a href="#core-code-demonstration" aria-label="Core Code Demonstration">Core Code Demonstration</a><ul>
+                    
+            <li>
+                <a href="#order-creation-service-core-business-logic" aria-label="Order Creation Service (Core Business Logic)">Order Creation Service (Core Business Logic)</a><ul>
+                    
+            <li>
+                <a href="#key-design-points" aria-label="Key Design Points">Key Design Points</a></li></ul>
+            </li>
+            <li>
+                <a href="#asynchronous-logistics-synchronization-consumer" aria-label="Asynchronous Logistics Synchronization Consumer">Asynchronous Logistics Synchronization Consumer</a><ul>
+                    
+            <li>
+                <a href="#key-design-points-1" aria-label="Key Design Points">Key Design Points</a></li></ul>
+            </li>
+            <li>
+                <a href="#cache-strategy-redis-usage-example" aria-label="Cache Strategy (Redis Usage Example)">Cache Strategy (Redis Usage Example)</a><ul>
+                    
+            <li>
+                <a href="#key-design-points-2" aria-label="Key Design Points">Key Design Points</a></li></ul>
+            </li>
+            <li>
+                <a href="#design-summary" aria-label="Design Summary">Design Summary</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h3></h3>
+<div style="display:flex; align-items:center; gap:12px; margin-bottom:20px;">
+<p><img src="/images/sf-logo.png"
+width="42"
+style="object-fit:contain;"></p>
+<strong>
+Enterprise Logistics Management Platform Design
+</strong>
+<span style="color:gray;">
+3M+ DAU · 40M+ Daily Requests
+</span>
+</div>
+<h1 id="system-overview">System Overview<a hidden class="anchor" aria-hidden="true" href="#system-overview">#</a></h1>
+<p>SF Express Courier Manager System is an enterprise-grade logistics management platform designed to support large-scale corporate shipment operations across domestic and international delivery workflows.</p>
+<p>The platform integrates:</p>
+<ul>
+<li>Shipment order management</li>
+<li>Multi-stage approval workflows</li>
+<li>Real-time logistics synchronization</li>
+<li>Financial reconciliation and billing</li>
+<li>Enterprise permission management</li>
+</ul>
+<p>The system was designed using a distributed microservices architecture to improve scalability, operational reliability, and maintainability under high-concurrency business scenarios.</p>
+<p>By centralizing previously fragmented logistics processes, the platform significantly improved operational efficiency, shipment visibility, and financial standardization across organizational departments.</p>
+<h1 id="problem-statement--constraints">Problem Statement &amp; Constraints<a hidden class="anchor" aria-hidden="true" href="#problem-statement--constraints">#</a></h1>
+<h2 id="problem-statement">Problem Statement<a hidden class="anchor" aria-hidden="true" href="#problem-statement">#</a></h2>
+<p>Many organizational shipment workflows relied heavily on:</p>
+<ul>
+<li>Manual order submission</li>
+<li>Offline approval processes</li>
+<li>Fragmented logistics tracking</li>
+<li>Manual financial reconciliation</li>
+</ul>
+<p>These issues resulted in:</p>
+<ul>
+<li>Low operational efficiency</li>
+<li>Inconsistent process management</li>
+<li>Ambiguous cost allocation</li>
+<li>Poor shipment visibility</li>
+<li>Weak logistics standardization</li>
+</ul>
+<p>The project aimed to build a centralized logistics management platform capable of standardizing shipment operations while improving scalability, reliability, and financial traceability.</p>
+<hr>
+<h2 id="business-constraints">Business Constraints<a hidden class="anchor" aria-hidden="true" href="#business-constraints">#</a></h2>
+<ol>
+<li>
+<p>Support multi-level organizational role permissions and department-level data isolation.</p>
+</li>
+<li>
+<p>Strictly comply with SF Express shipping policies, billing standards, and API specifications.</p>
+</li>
+<li>
+<p>Provide customizable approval workflows to support different organizational management processes.</p>
+</li>
+<li>
+<p>Support automated expense allocation, standardized billing, and compliant financial statement export.</p>
+</li>
+</ol>
+<hr>
+<h2 id="technical-constraints">Technical Constraints<a hidden class="anchor" aria-hidden="true" href="#technical-constraints">#</a></h2>
+<ol>
+<li>
+<p>Maintain system stability under high-concurrency shipment submission scenarios.</p>
+</li>
+<li>
+<p>Achieve low-latency synchronization with external SF Express APIs.</p>
+</li>
+<li>
+<p>Optimize storage and query performance for large-scale order and logistics datasets.</p>
+</li>
+<li>
+<p>Protect sensitive shipment information, including addresses and contact details.</p>
+</li>
+<li>
+<p>Support integration with:</p>
+<ul>
+<li>Web platforms</li>
+<li>WeChat mini-programs</li>
+<li>Third-party enterprise office systems</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h1 id="system-architecture--high-level-design">System Architecture &amp; High-Level Design<a hidden class="anchor" aria-hidden="true" href="#system-architecture--high-level-design">#</a></h1>
+<h2 id="architecture-diagram">Architecture Diagram<a hidden class="anchor" aria-hidden="true" href="#architecture-diagram">#</a></h2>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">---
+config:
+  layout: dagre
+---
+graph TD
+
+    %% ===== CLIENT LAYER =====
+    subgraph C[&#34;Client Layer&#34;]
+        Client[&#34;Client&#34;]
+        Web[&#34;Web Admin Portal&#34;]
+        Mini[&#34;WeChat Mini Program&#34;]
+        Office[&#34;Enterprise Office Integration&#34;]
+
+        Client --&gt; Web
+        Client --&gt; Mini
+        Client --&gt; Office
+    end
+
+    %% ===== GATEWAY LAYER =====
+    subgraph G[&#34;Gateway Layer&#34;]
+        Gateway[&#34;API Gateway&lt;br/&gt;Authentication • Routing • Rate Limiting&#34;]
+    end
+
+    %% ===== MICROSERVICE LAYER =====
+    subgraph M[&#34;Microservice Layer&#34;]
+
+        UserSvc[&#34;User &amp; Permission Service&#34;]
+        OrderSvc[&#34;Shipment Order Service&#34;]
+        ApprovalSvc[&#34;Approval Flow Service&#34;]
+        LogisticsSvc[&#34;Logistics Sync Service&#34;]
+        FinanceSvc[&#34;Financial Reconciliation Service&#34;]
+    end
+
+    %% ===== MIDDLEWARE LAYER =====
+    subgraph MW[&#34;Middleware Layer&#34;]
+
+        MQ[&#34;RabbitMQ&lt;br/&gt;Async Task Processing&#34;]
+        Redis[&#34;Redis Cache&lt;br/&gt;Hot Data • Session&#34;]
+        MinIO[&#34;MinIO&lt;br/&gt;Waybill/Bill Storage&#34;]
+    end
+
+    %% ===== DATA LAYER =====
+    subgraph D[&#34;Data Layer&#34;]
+
+        MySQL[&#34;MySQL&lt;br/&gt;Core Transaction Data&#34;]
+        ES[&#34;Elasticsearch&lt;br/&gt;Logistics Search Engine&#34;]
+    end
+
+    %% ===== CONNECTIONS =====
+    Web --&gt; Gateway
+    Mini --&gt; Gateway
+    Office --&gt; Gateway
+
+    Gateway --&gt; UserSvc
+    Gateway --&gt; OrderSvc
+    Gateway --&gt; ApprovalSvc
+    Gateway --&gt; LogisticsSvc
+    Gateway --&gt; FinanceSvc
+
+    OrderSvc --&gt; MQ
+
+    UserSvc --&gt; Redis
+    OrderSvc --&gt; MySQL
+    ApprovalSvc --&gt; MySQL
+    FinanceSvc --&gt; MySQL
+
+    LogisticsSvc --&gt; ES
+    LogisticsSvc --&gt; MySQL
+
+    MQ --&gt; LogisticsSvc
+
+    MinIO --&gt; MySQL
+</code></pre><hr>
+<h2 id="core-data-flow">Core Data Flow<a hidden class="anchor" aria-hidden="true" href="#core-data-flow">#</a></h2>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">flowchart LR
+
+    A[&#34;User submits shipment request&#34;] --&gt; 
+    B[&#34;API Gateway&lt;br/&gt;Authentication &amp; Routing&#34;]
+
+    B --&gt; 
+    C[&#34;Shipment Order Service&lt;br/&gt;Generate Shipment Order&#34;]
+
+    C --&gt; 
+    D[&#34;Approval Flow Service&lt;br/&gt;Trigger Approval Workflow&#34;]
+
+    D --&gt; 
+    E[&#34;RabbitMQ&lt;br/&gt;Asynchronous Task Dispatch&#34;]
+
+    E --&gt; 
+    F[&#34;SF Express Official API&lt;br/&gt;Logistics Synchronization&#34;]
+
+    C --&gt; 
+    G[&#34;MySQL&lt;br/&gt;Transactional Data Storage&#34;]
+
+    F --&gt; 
+    H[&#34;Elasticsearch&lt;br/&gt;Logistics Tracking Index&#34;]
+
+    C --&gt; 
+    I[&#34;Redis Cache&lt;br/&gt;Hot Data &amp; Session Cache&#34;]
+
+    G --&gt; 
+    J[&#34;Financial Reconciliation Service&#34;]
+
+    J --&gt; 
+    K[&#34;Billing Statistics &amp; Financial Report Export&#34;]
+</code></pre><hr>
+<h2 id="design-rationale">Design Rationale<a hidden class="anchor" aria-hidden="true" href="#design-rationale">#</a></h2>
+<h3 id="microservices-architecture">Microservices Architecture<a hidden class="anchor" aria-hidden="true" href="#microservices-architecture">#</a></h3>
+<p>The platform adopts a microservices architecture to separate major business domains, including order processing, approval workflows, logistics synchronization, and financial reconciliation.</p>
+<p>This design improves:</p>
+<ul>
+<li>Independent deployment capability</li>
+<li>Horizontal scalability</li>
+<li>Fault isolation</li>
+<li>Long-term maintainability</li>
+</ul>
+<p>For example, failures in logistics synchronization services do not directly affect order creation or approval processing.</p>
+<hr>
+<h3 id="mysql-for-transactional-consistency">MySQL for Transactional Consistency<a hidden class="anchor" aria-hidden="true" href="#mysql-for-transactional-consistency">#</a></h3>
+<p>The platform contains multiple transaction-sensitive workflows, including:</p>
+<ul>
+<li>Shipment creation</li>
+<li>Approval state transitions</li>
+<li>Expense allocation</li>
+<li>Financial reconciliation</li>
+</ul>
+<p>MySQL was selected because it provides:</p>
+<ul>
+<li>ACID transaction guarantees</li>
+<li>Strong relational modeling capability</li>
+<li>Reliable multi-table query performance</li>
+<li>Financial-grade data consistency</li>
+</ul>
+<p>This architecture ensures reliable operational and financial traceability across shipment workflows.</p>
+<hr>
+<h3 id="rabbitmq-for-asynchronous-processing">RabbitMQ for Asynchronous Processing<a hidden class="anchor" aria-hidden="true" href="#rabbitmq-for-asynchronous-processing">#</a></h3>
+<p>Several operations within the system are resource-intensive and latency-sensitive, including:</p>
+<ul>
+<li>Real-time logistics synchronization</li>
+<li>Batch waybill generation</li>
+<li>Financial statistics aggregation</li>
+</ul>
+<p>RabbitMQ decouples upstream business services from downstream external API interactions, improving system throughput and reducing synchronous blocking risks under high-concurrency workloads.</p>
+<p>This design also improves eventual consistency and operational resilience when interacting with third-party services.</p>
+<hr>
+<h3 id="redis-cache-layer">Redis Cache Layer<a hidden class="anchor" aria-hidden="true" href="#redis-cache-layer">#</a></h3>
+<p>Redis is used to cache frequently accessed data, including:</p>
+<ul>
+<li>User session information</li>
+<li>Permission metadata</li>
+<li>Common shipment addresses</li>
+<li>Frequently queried pricing templates</li>
+</ul>
+<p>The cache layer significantly reduces repeated database access and improves response performance during peak traffic periods.</p>
+<hr>
+<h3 id="elasticsearch-for-logistics-tracking">Elasticsearch for Logistics Tracking<a hidden class="anchor" aria-hidden="true" href="#elasticsearch-for-logistics-tracking">#</a></h3>
+<p>Logistics trajectory records contain large volumes of semi-structured tracking data that require fast full-text retrieval.</p>
+<p>Elasticsearch provides:</p>
+<ul>
+<li>High-performance search capability</li>
+<li>Fast order and tracking number queries</li>
+<li>Efficient trajectory retrieval</li>
+<li>Better scalability for real-time logistics search workloads</li>
+</ul>
+<p>Compared with relational database querying, Elasticsearch provides significantly better performance for large-scale tracking retrieval scenarios.</p>
+<h1 id="core-code-demonstration">Core Code Demonstration<a hidden class="anchor" aria-hidden="true" href="#core-code-demonstration">#</a></h1>
+<p>This section highlights simplified core implementations that reflect key architectural decisions in the system, including asynchronous processing, service layering, and transactional consistency.</p>
+<hr>
+<h2 id="order-creation-service-core-business-logic">Order Creation Service (Core Business Logic)<a hidden class="anchor" aria-hidden="true" href="#order-creation-service-core-business-logic">#</a></h2>
+<p>This service handles shipment order creation and ensures transactional integrity.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Service</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ShipmentOrderService</span> {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> OrderRepository orderRepository;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> RabbitTemplate rabbitTemplate;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Transactional</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> Long <span style="color:#a6e22e">createOrder</span>(CreateOrderRequest request) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 1. Validate input &amp; business rules</span>
+</span></span><span style="display:flex;"><span>        validateRequest(request);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 2. Persist order (MySQL transaction)</span>
+</span></span><span style="display:flex;"><span>        Order order <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Order();
+</span></span><span style="display:flex;"><span>        order.<span style="color:#a6e22e">setUserId</span>(request.<span style="color:#a6e22e">getUserId</span>());
+</span></span><span style="display:flex;"><span>        order.<span style="color:#a6e22e">setStatus</span>(<span style="color:#e6db74">&#34;PENDING_APPROVAL&#34;</span>);
+</span></span><span style="display:flex;"><span>        orderRepository.<span style="color:#a6e22e">save</span>(order);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 3. Publish async event to MQ (logistics sync, billing, etc.)</span>
+</span></span><span style="display:flex;"><span>        rabbitTemplate.<span style="color:#a6e22e">convertAndSend</span>(
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;order.exchange&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#34;order.created&#34;</span>,
+</span></span><span style="display:flex;"><span>            order.<span style="color:#a6e22e">getId</span>()
+</span></span><span style="display:flex;"><span>        );
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> order.<span style="color:#a6e22e">getId</span>();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="key-design-points">Key Design Points<a hidden class="anchor" aria-hidden="true" href="#key-design-points">#</a></h3>
+<ul>
+<li>Uses <strong>@Transactional</strong> to ensure database consistency</li>
+<li>Decouples downstream processing via <strong>RabbitMQ</strong></li>
+<li>Follows <strong>event-driven architecture pattern</strong></li>
+<li>Keeps API response fast by avoiding synchronous external calls</li>
+</ul>
+<hr>
+<h2 id="asynchronous-logistics-synchronization-consumer">Asynchronous Logistics Synchronization Consumer<a hidden class="anchor" aria-hidden="true" href="#asynchronous-logistics-synchronization-consumer">#</a></h2>
+<p>This component processes order events asynchronously and integrates with external SF Express APIs.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Component</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LogisticsSyncConsumer</span> {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@RabbitListener</span>(queues <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;order.created.queue&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">handleOrderCreated</span>(Long orderId) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 1. Fetch order data</span>
+</span></span><span style="display:flex;"><span>        Order order <span style="color:#f92672">=</span> orderService.<span style="color:#a6e22e">findById</span>(orderId);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 2. Call external SF Express API</span>
+</span></span><span style="display:flex;"><span>        TrackingInfo trackingInfo <span style="color:#f92672">=</span> sfExpressClient.<span style="color:#a6e22e">createShipment</span>(order);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 3. Store tracking result</span>
+</span></span><span style="display:flex;"><span>        logisticsRepository.<span style="color:#a6e22e">save</span>(trackingInfo);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 4. Index into Elasticsearch for fast search</span>
+</span></span><span style="display:flex;"><span>        elasticsearchService.<span style="color:#a6e22e">indexTracking</span>(trackingInfo);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="key-design-points-1">Key Design Points<a hidden class="anchor" aria-hidden="true" href="#key-design-points-1">#</a></h3>
+<ul>
+<li>Implements <strong>asynchronous event-driven processing</strong></li>
+<li>Avoids blocking main order creation flow</li>
+<li>Integrates external API safely with retryable consumer model</li>
+<li>Separates OLTP (MySQL) and search (Elasticsearch) concerns</li>
+</ul>
+<hr>
+<h2 id="cache-strategy-redis-usage-example">Cache Strategy (Redis Usage Example)<a hidden class="anchor" aria-hidden="true" href="#cache-strategy-redis-usage-example">#</a></h2>
+<p>Used for reducing database load on frequently accessed user data.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Service</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UserService</span> {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> RedisTemplate<span style="color:#f92672">&lt;</span>String, Object<span style="color:#f92672">&gt;</span> redisTemplate;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> UserRepository userRepository;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> User <span style="color:#a6e22e">getUser</span>(Long userId) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        String key <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;user:&#34;</span> <span style="color:#f92672">+</span> userId;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 1. Try cache first</span>
+</span></span><span style="display:flex;"><span>        User cachedUser <span style="color:#f92672">=</span> (User) redisTemplate.<span style="color:#a6e22e">opsForValue</span>().<span style="color:#a6e22e">get</span>(key);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (cachedUser <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> cachedUser;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 2. Fallback to DB</span>
+</span></span><span style="display:flex;"><span>        User user <span style="color:#f92672">=</span> userRepository.<span style="color:#a6e22e">findById</span>(userId).<span style="color:#a6e22e">orElse</span>(<span style="color:#66d9ef">null</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 3. Store in cache</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (user <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span>) {
+</span></span><span style="display:flex;"><span>            redisTemplate.<span style="color:#a6e22e">opsForValue</span>().<span style="color:#a6e22e">set</span>(key, user, Duration.<span style="color:#a6e22e">ofMinutes</span>(30));
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> user;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="key-design-points-2">Key Design Points<a hidden class="anchor" aria-hidden="true" href="#key-design-points-2">#</a></h3>
+<ul>
+<li>Implements <strong>cache-aside pattern</strong></li>
+<li>Reduces MySQL read pressure</li>
+<li>Improves response time for frequent queries</li>
+<li>Adds TTL for cache freshness control</li>
+</ul>
+<hr>
+<h2 id="design-summary">Design Summary<a hidden class="anchor" aria-hidden="true" href="#design-summary">#</a></h2>
+<p>The core implementation demonstrates:</p>
+<ul>
+<li>Event-driven architecture using RabbitMQ</li>
+<li>Strong transactional consistency with MySQL</li>
+<li>High-performance read optimization via Redis</li>
+<li>Separation of concerns between:
+<ul>
+<li>Transaction storage (MySQL)</li>
+<li>Search index (Elasticsearch)</li>
+<li>Async processing (RabbitMQ)</li>
+</ul>
+</li>
+</ul>
+<p>This design reflects production-level backend engineering practices commonly used in distributed enterprise systems.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/projects/yunda-coldchain/">
+    <span class="title">Next »</span>
+    <span>Cold Chain Logistics System</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Kevin&#39;s Profile</a></span>
+
+    
+    
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

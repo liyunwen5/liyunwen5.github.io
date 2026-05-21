@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>ZTO Jingxuan E-Commerce System | Kevin&#39;s Profile</title>
+<meta name="keywords" content="">
+<meta name="description" content="How I designed and deployed my developer portfolio using Hugo and PaperMod.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projects/zhongtong-jingxuan-e-commerce-system-design-portfolio-project-achievement-demonstration/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.543013727d69d86b94cf3ae64a97fc443ad18e0f1ae711d150ca856d4eefa131.css" integrity="sha256-VDATcn1p2GuUzzrmSpf8RDrRjg8a5xHRUMqFbU7voTE=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/zhongtong-jingxuan-e-commerce-system-design-portfolio-project-achievement-demonstration/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+
+  mermaid.initialize({ startOnLoad: false });
+
+  document.querySelectorAll('pre code.language-mermaid').forEach((block) => {
+    const parent = block.parentElement;
+    const graph = document.createElement('div');
+
+    graph.className = 'mermaid';
+    graph.innerHTML = block.textContent;
+
+    parent.replaceWith(graph);
+  });
+
+  mermaid.run();
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Kevin&#39;s Profile (Alt + H)">Kevin&#39;s Profile</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/experience/" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/projects/">Projects</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      ZTO Jingxuan E-Commerce System
+    </h1>
+    <div class="post-meta">
+
+
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h3></h3>
+<div style="display:flex; align-items:center; gap:12px; margin-bottom:20px;">
+<p><img src="/images/zto-logo.png"
+width="42"
+style="object-fit:contain;"></p>
+<strong>
+A Unified Digital Commerce and Logistics Management System
+</strong>
+<span style="color:gray;">
+</span>
+</div>
+ZTO Jingxuan is a comprehensive e-commerce information system built upon the logistics infrastructure of ZTO Express. The platform integrates business transactions, inventory scheduling, payment processing, and logistics coordination into a unified distributed system serving merchants, consumers, and operational administrators.
+<h2 id="table-of-contents">Table of Contents<a hidden class="anchor" aria-hidden="true" href="#table-of-contents">#</a></h2>
+<ol>
+<li><a href="#1-project-overview">Project Overview</a></li>
+<li><a href="#2-system-architecture">System Architecture</a></li>
+<li><a href="#3-my-contribution">My Contribution</a></li>
+<li><a href="#4-order--inventory-workflow">Order &amp; Inventory Workflow</a></li>
+<li><a href="#5-order--inventory-code-demonstration">Order &amp; Inventory Code Demonstration</a></li>
+<li><a href="#6-technical-reflection">Technical Reflection</a></li>
+</ol>
+<h1 id="1-project-overview">1 Project Overview<a hidden class="anchor" aria-hidden="true" href="#1-project-overview">#</a></h1>
+<p>The system was designed to support large-scale commercial operations through modular service architecture and standardized business workflows. By integrating transaction management, inventory coordination, search capability, and real-time communication, the platform enables efficient collaboration across upstream suppliers, downstream consumers, and logistics terminals.</p>
+<h1 id="2-system-architecture">2 System Architecture<a hidden class="anchor" aria-hidden="true" href="#2-system-architecture">#</a></h1>
+<h2 id="21-architecture-diagram">2.1 Architecture Diagram<a hidden class="anchor" aria-hidden="true" href="#21-architecture-diagram">#</a></h2>
+<p>The e-commerce system was designed with 6 layers, each with clear responsibilities and interfaces, ensuring modularity and scalability to support growing e-commerce traffic and transaction volume. Below is the detailed architecture and design decisions:</p>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">
+flowchart TD
+    subgraph ClientLayer[&#34;Client Layer&#34;]
+        A1[Purchaser App]
+        A2[Supplier Portal]
+        A3[Admin Backend]
+        A4[Mobile Web]
+    end
+
+    subgraph GatewayLayer[&#34;Gateway Layer&#34;]
+        B1[API Gateway]
+        B2[WebSocket Gateway]
+        B3[Load Balancer]
+    end
+
+    subgraph BusinessLayer[&#34;Core Business Services&#34;]
+        C1[User Service]
+        C2[Product Service]
+        C3[Order Service]
+        C4[Payment Service]
+        C5[Inventory Service]
+        C6[Search Service]
+    end
+
+    subgraph MiddlewareLayer[&#34;Middleware &amp; Configuration&#34;]
+        D1[Redis Cache]
+        D2[Kafka Event Queue]
+        D3[ElasticSearch]
+        D4[Config Center]
+    end
+
+    subgraph DataLayer[&#34;Data Storage Layer&#34;]
+        E1[MySQL Cluster]
+        E2[MongoDB]
+    end
+
+    A1 &amp; A2 &amp; A3 --&gt; B1
+    A4 --&gt; B2
+    B1 &amp; B2 --&gt; B3
+
+    B3 --&gt; C1 &amp; C2 &amp; C3 &amp; C4 &amp; C5 &amp; C6
+    B2 -.-&gt; C3 &amp; C5
+
+    C1 &amp; C2 &amp; C3 &amp; C5 --&gt; D1
+    C3 --&gt; D2
+    C6 --&gt; D3
+    C1 &amp; C2 &amp; C3 &amp; C4 &amp; C5 &amp; C6 --&gt; D4
+
+    C1 &amp; C3 &amp; C4 &amp; C5 --&gt; E1
+    C2 --&gt; E1 &amp; E2
+</code></pre><h3 id="22-architecture--engineering-highlights">2.2 Architecture &amp; Engineering Highlights<a hidden class="anchor" aria-hidden="true" href="#22-architecture--engineering-highlights">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>Area</th>
+          <th>Technical Design</th>
+          <th>Engineering Consideration</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Distributed Service Architecture</td>
+          <td>Modular business services for users, products, orders, payments, and inventory</td>
+          <td>Improved scalability, maintainability, and service isolation</td>
+      </tr>
+      <tr>
+          <td>Asynchronous Event Processing</td>
+          <td>Kafka-based event queue for order and inventory workflows</td>
+          <td>Increased throughput and reduced service coupling</td>
+      </tr>
+      <tr>
+          <td>High-Performance Data Access</td>
+          <td>Redis caching layer</td>
+          <td>Reduced database pressure while accepting short-term eventual consistency</td>
+      </tr>
+      <tr>
+          <td>Search Infrastructure</td>
+          <td>Elasticsearch-powered product retrieval</td>
+          <td>Enabled efficient multi-dimensional search with near real-time indexing</td>
+      </tr>
+      <tr>
+          <td>Hybrid Data Storage</td>
+          <td>MySQL for transactional data and MongoDB for flexible business data</td>
+          <td>Balanced strong consistency and schema adaptability</td>
+      </tr>
+      <tr>
+          <td>Real-Time Communication</td>
+          <td>WebSocket gateway for operational updates</td>
+          <td>Enhanced real-time interaction and synchronization</td>
+      </tr>
+      <tr>
+          <td>Dynamic Configuration Governance</td>
+          <td>Centralized configuration management</td>
+          <td>Improved operational flexibility and deployment efficiency</td>
+      </tr>
+  </tbody>
+</table>
+<h1 id="3-my-contribution">3 My Contribution<a hidden class="anchor" aria-hidden="true" href="#3-my-contribution">#</a></h1>
+<p>I joined the project during the early stage and participated in the maintenance and iterative development of core business modules within a production-grade distributed system.</p>
+<p>My responsibilities included:</p>
+<ul>
+<li>Contributing to backend business service development and module integration</li>
+<li>Developing order, inventory, and product-related service workflows</li>
+<li>Participating in distributed service collaboration and API integration</li>
+<li>Assisting in performance optimization through caching and asynchronous processing mechanisms</li>
+<li>Working with real production constraints involving scalability, availability, and operational coordination</li>
+</ul>
+<h1 id="4-order--inventory-workflow">4 Order &amp; Inventory Workflow<a hidden class="anchor" aria-hidden="true" href="#4-order--inventory-workflow">#</a></h1>
+<h2 id="41-order-sequence-diagram">4.1 Order Sequence Diagram<a hidden class="anchor" aria-hidden="true" href="#41-order-sequence-diagram">#</a></h2>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">
+sequenceDiagram
+    participant Purchaser as B-end E-Commerce Purchaser
+    participant Gateway as API Gateway
+    participant OrderService as Order Service
+    participant Kafka as Kafka
+    participant PaymentService as Payment Service
+    participant InventoryService as Inventory Service
+    participant Redis as Redis Cache
+    participant MySQL as MySQL Cluster
+    participant SearchService as Search Service
+    
+    Purchaser-&gt;&gt;Gateway: Place Order (HTTP POST)
+    Gateway-&gt;&gt;OrderService: Forward Order Request (JWT Authenticated)
+    OrderService-&gt;&gt;Redis: Check Product Inventory (Cache Hit)
+    Redis--&gt;&gt;OrderService: Return Inventory Status
+    OrderService-&gt;&gt;InventoryService: Lock Inventory (gRPC Call)
+    InventoryService-&gt;&gt;Redis: Update Locked Inventory
+    InventoryService--&gt;&gt;OrderService: Confirm Inventory Lock
+    OrderService-&gt;&gt;MySQL: Create Order Record (Status: PENDING_PAY)
+    OrderService-&gt;&gt;Kafka: Publish OrderCreated Event
+    Kafka--&gt;&gt;PaymentService: Consume OrderCreated Event
+    PaymentService-&gt;&gt;Purchaser: Process Payment (Integration with Payment Gateway)
+    Purchaser-&gt;&gt;PaymentService: Complete Payment
+    PaymentService-&gt;&gt;Kafka: Publish OrderPaid Event
+    Kafka--&gt;&gt;OrderService: Consume OrderPaid Event
+    OrderService-&gt;&gt;InventoryService: Deduce Inventory
+    InventoryService-&gt;&gt;Redis: Update Real-Time Inventory
+    InventoryService--&gt;&gt;OrderService: Confirm Inventory Deduction
+    OrderService-&gt;&gt;MySQL: Update Order Status (PAID/SHIPPED)
+    OrderService-&gt;&gt;Redis: Update Order Cache
+    OrderService-&gt;&gt;Purchaser: Return Order Success Response
+    Kafka--&gt;&gt;SearchService: Update Product Sales Volume
+</code></pre><h2 id="42-product-search--inventory-sync-sequence-diagram">4.2 Product Search &amp; Inventory Sync Sequence Diagram<a hidden class="anchor" aria-hidden="true" href="#42-product-search--inventory-sync-sequence-diagram">#</a></h2>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">
+sequenceDiagram
+    participant Supplier as E-Commerce Supplier
+    participant ProductService as Product Service
+    participant InventoryService as Inventory Service
+    participant Elasticsearch as Elasticsearch
+    participant Redis as Redis Cache
+    participant Purchaser as B-end Purchaser
+    participant SearchService as Search Service
+    
+    Supplier-&gt;&gt;ProductService: Add/Update Product (Admin Portal)
+    ProductService-&gt;&gt;MySQL: Save Product Information
+    ProductService-&gt;&gt;Elasticsearch: Create/Update Product Index
+    InventoryService-&gt;&gt;Redis: Update Real-Time Inventory
+    InventoryService-&gt;&gt;Elasticsearch: Sync Inventory Status to Product Index
+    Purchaser-&gt;&gt;SearchService: Search Products (Keyword/Category)
+    SearchService-&gt;&gt;Elasticsearch: Query Product Index (Optimized Query)
+    Elasticsearch--&gt;&gt;SearchService: Return Filtered/Sorted Results (With Inventory Status)
+    SearchService-&gt;&gt;Redis: Verify Real-Time Inventory (Final Check)
+    SearchService--&gt;&gt;Purchaser: Display Search Results (In-Stock Only)
+</code></pre><h1 id="5-order--inventory-code-demonstration">5 Order &amp; Inventory Code Demonstration<a hidden class="anchor" aria-hidden="true" href="#5-order--inventory-code-demonstration">#</a></h1>
+<p>Below are key code snippets developed during the project, demonstrating proficiency in Java/Spring Boot (e-commerce backend development) and Scala/Flink (e-commerce data processing)—critical skills reflected in the project’s delivery.</p>
+<h2 id="51-order-service">5.1 Order Service<a hidden class="anchor" aria-hidden="true" href="#51-order-service">#</a></h2>
+<p>This code demonstrates the implementation of distributed transactions for e-commerce orders, including inventory locking, payment processing, and compensation logic—critical for e-commerce data consistency.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Implementation of Saga Pattern for e-commerce order transactions (core business logic)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Key responsibility: Ensure consistency across order, inventory, and payment services
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * E-commerce focus: Handle order creation, payment, inventory deduction, and cancellation
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@Service</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">OrderSagaService</span> {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> OrderMapper orderMapper;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> KafkaTemplate<span style="color:#f92672">&lt;</span>String, String<span style="color:#f92672">&gt;</span> kafkaTemplate;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> InventoryFeignClient inventoryFeignClient;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> PaymentFeignClient paymentFeignClient;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Step 1: Create e-commerce order (Saga initiation)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Transactional</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">createOrder</span>(OrderCreateDTO dto) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Design: Generate unique order ID with timestamp to support e-commerce sharding</span>
+</span></span><span style="display:flex;"><span>        String orderId <span style="color:#f92672">=</span> UUID.<span style="color:#a6e22e">randomUUID</span>().<span style="color:#a6e22e">toString</span>().<span style="color:#a6e22e">replace</span>(<span style="color:#e6db74">&#34;-&#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>) <span style="color:#f92672">+</span> System.<span style="color:#a6e22e">currentTimeMillis</span>();
+</span></span><span style="display:flex;"><span>        Order order <span style="color:#f92672">=</span> buildOrder(dto, orderId);
+</span></span><span style="display:flex;"><span>        orderMapper.<span style="color:#a6e22e">insert</span>(order); <span style="color:#75715e">// Insert into sharded MySQL order table (e-commerce sharding design)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Publish event to Kafka (event-driven e-commerce design)</span>
+</span></span><span style="display:flex;"><span>        OrderCreatedEvent event <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> OrderCreatedEvent(orderId, dto.<span style="color:#a6e22e">getPurchaserId</span>(), dto.<span style="color:#a6e22e">getAmount</span>(), dto.<span style="color:#a6e22e">getProductList</span>());
+</span></span><span style="display:flex;"><span>        kafkaTemplate.<span style="color:#a6e22e">send</span>(<span style="color:#e6db74">&#34;ecommerce-order-events&#34;</span>, orderId, JSON.<span style="color:#a6e22e">toJSONString</span>(event));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Lock inventory immediately to prevent over-sales (e-commerce critical logic)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">boolean</span> lockSuccess <span style="color:#f92672">=</span> inventoryFeignClient.<span style="color:#a6e22e">lockInventory</span>(buildInventoryLockDTO(order));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>lockSuccess) {
+</span></span><span style="display:flex;"><span>            order.<span style="color:#a6e22e">setStatus</span>(<span style="color:#e6db74">&#34;CANCELLED&#34;</span>);
+</span></span><span style="display:flex;"><span>            orderMapper.<span style="color:#a6e22e">updateById</span>(order);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> RuntimeException(<span style="color:#e6db74">&#34;Inventory shortage, order cancelled&#34;</span>);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> orderId;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Step 2: Handle e-commerce payment success (Saga next step)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Transactional</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">handleOrderPaid</span>(OrderPaidEvent event) {
+</span></span><span style="display:flex;"><span>        Order order <span style="color:#f92672">=</span> orderMapper.<span style="color:#a6e22e">selectById</span>(event.<span style="color:#a6e22e">getOrderId</span>());
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (order <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> <span style="color:#f92672">!</span><span style="color:#e6db74">&#34;PENDING_PAY&#34;</span>.<span style="color:#a6e22e">equals</span>(order.<span style="color:#a6e22e">getStatus</span>())) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> RuntimeException(<span style="color:#e6db74">&#34;Invalid e-commerce order status&#34;</span>);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Update order status (e-commerce transaction management)</span>
+</span></span><span style="display:flex;"><span>        order.<span style="color:#a6e22e">setStatus</span>(<span style="color:#e6db74">&#34;PAID&#34;</span>);
+</span></span><span style="display:flex;"><span>        order.<span style="color:#a6e22e">setPaymentTime</span>(<span style="color:#66d9ef">new</span> Date());
+</span></span><span style="display:flex;"><span>        orderMapper.<span style="color:#a6e22e">updateById</span>(order);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Call inventory service to deduct stock (e-commerce core logic)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">boolean</span> deductSuccess <span style="color:#f92672">=</span> inventoryFeignClient.<span style="color:#a6e22e">deductInventory</span>(event.<span style="color:#a6e22e">getOrderId</span>());
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>deductSuccess) {
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// E-commerce compensation logic: Rollback order + refund payment</span>
+</span></span><span style="display:flex;"><span>            order.<span style="color:#a6e22e">setStatus</span>(<span style="color:#e6db74">&#34;CANCELLED&#34;</span>);
+</span></span><span style="display:flex;"><span>            orderMapper.<span style="color:#a6e22e">updateById</span>(order);
+</span></span><span style="display:flex;"><span>            paymentFeignClient.<span style="color:#a6e22e">refundPayment</span>(event.<span style="color:#a6e22e">getOrderId</span>(), event.<span style="color:#a6e22e">getPaymentAmount</span>());
+</span></span><span style="display:flex;"><span>            kafkaTemplate.<span style="color:#a6e22e">send</span>(<span style="color:#e6db74">&#34;ecommerce-order-events&#34;</span>, event.<span style="color:#a6e22e">getOrderId</span>(), 
+</span></span><span style="display:flex;"><span>                               JSON.<span style="color:#a6e22e">toJSONString</span>(<span style="color:#66d9ef">new</span> OrderCancelledEvent(event.<span style="color:#a6e22e">getOrderId</span>(), <span style="color:#e6db74">&#34;INVENTORY_DEDUCT_FAILED&#34;</span>)));
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> RuntimeException(<span style="color:#e6db74">&#34;Inventory deduction failed, order rolled back and payment refunded&#34;</span>);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Publish event to trigger order confirmation and notification</span>
+</span></span><span style="display:flex;"><span>        kafkaTemplate.<span style="color:#a6e22e">send</span>(<span style="color:#e6db74">&#34;ecommerce-order-events&#34;</span>, event.<span style="color:#a6e22e">getOrderId</span>(), 
+</span></span><span style="display:flex;"><span>                           JSON.<span style="color:#a6e22e">toJSONString</span>(<span style="color:#66d9ef">new</span> OrderConfirmedEvent(event.<span style="color:#a6e22e">getOrderId</span>())));
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Helper method: Build e-commerce order object (encapsulation for maintainability)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> Order <span style="color:#a6e22e">buildOrder</span>(OrderCreateDTO dto, String orderId) {
+</span></span><span style="display:flex;"><span>        Order order <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Order();
+</span></span><span style="display:flex;"><span>        order.<span style="color:#a6e22e">setOrderId</span>(orderId);
+</span></span><span style="display:flex;"><span>        order.<span style="color:#a6e22e">setPurchaserId</span>(dto.<span style="color:#a6e22e">getPurchaserId</span>());
+</span></span><span style="display:flex;"><span>        order.<span style="color:#a6e22e">setProductList</span>(JSON.<span style="color:#a6e22e">toJSONString</span>(dto.<span style="color:#a6e22e">getProductList</span>()));
+</span></span><span style="display:flex;"><span>        order.<span style="color:#a6e22e">setAmount</span>(dto.<span style="color:#a6e22e">getAmount</span>());
+</span></span><span style="display:flex;"><span>        order.<span style="color:#a6e22e">setStatus</span>(<span style="color:#e6db74">&#34;PENDING_PAY&#34;</span>);
+</span></span><span style="display:flex;"><span>        order.<span style="color:#a6e22e">setCreateTime</span>(<span style="color:#66d9ef">new</span> Date());
+</span></span><span style="display:flex;"><span>        order.<span style="color:#a6e22e">setSupplierId</span>(dto.<span style="color:#a6e22e">getSupplierId</span>());
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> order;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Helper method: Build inventory lock DTO for e-commerce scenarios</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> InventoryLockDTO <span style="color:#a6e22e">buildInventoryLockDTO</span>(Order order) {
+</span></span><span style="display:flex;"><span>        InventoryLockDTO lockDTO <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> InventoryLockDTO();
+</span></span><span style="display:flex;"><span>        lockDTO.<span style="color:#a6e22e">setOrderId</span>(order.<span style="color:#a6e22e">getOrderId</span>());
+</span></span><span style="display:flex;"><span>        lockDTO.<span style="color:#a6e22e">setProductList</span>(JSON.<span style="color:#a6e22e">parseArray</span>(order.<span style="color:#a6e22e">getProductList</span>(), ProductDTO.<span style="color:#a6e22e">class</span>));
+</span></span><span style="display:flex;"><span>        lockDTO.<span style="color:#a6e22e">setExpireTime</span>(300); <span style="color:#75715e">// 5 minutes lock timeout (e-commerce anti-over-sales)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> lockDTO;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="52-inventory-service">5.2 Inventory Service<a hidden class="anchor" aria-hidden="true" href="#52-inventory-service">#</a></h2>
+<p>This code demonstrates the implementation of real-time inventory management for e-commerce, including stock locking, deduction, and cache synchronization—critical for preventing over-sales and ensuring inventory accuracy.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Implementation of real-time inventory management for e-commerce
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * Key responsibility: Handle inventory locking, deduction, release, and cache synchronization
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> * E-commerce focus: Prevent over-sales, ensure real-time inventory accuracy
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@Service</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">InventoryService</span> {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> InventoryMapper inventoryMapper;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> RedisTemplate<span style="color:#f92672">&lt;</span>String, Object<span style="color:#f92672">&gt;</span> redisTemplate;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> KafkaTemplate<span style="color:#f92672">&lt;</span>String, String<span style="color:#f92672">&gt;</span> kafkaTemplate;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Redis key prefix for e-commerce inventory</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String REDIS_INVENTORY_KEY <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ecommerce:inventory:&#34;</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Redis distributed lock key prefix</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String REDIS_LOCK_KEY <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ecommerce:inventory:lock:&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Lock inventory for e-commerce order (prevent over-sales)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Transactional</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">lockInventory</span>(InventoryLockDTO dto) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// E-commerce distributed lock design: Redisson lock to prevent concurrent locking</span>
+</span></span><span style="display:flex;"><span>        RLock lock <span style="color:#f92672">=</span> redissonClient.<span style="color:#a6e22e">getLock</span>(REDIS_LOCK_KEY <span style="color:#f92672">+</span> dto.<span style="color:#a6e22e">getOrderId</span>());
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Lock timeout: 5 minutes (consistent with order payment timeout)</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">boolean</span> locked <span style="color:#f92672">=</span> lock.<span style="color:#a6e22e">tryLock</span>(5, 300, TimeUnit.<span style="color:#a6e22e">SECONDS</span>);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>locked) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Check real-time inventory from Redis first (e-commerce performance optimization)</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (ProductDTO product : dto.<span style="color:#a6e22e">getProductList</span>()) {
+</span></span><span style="display:flex;"><span>                String redisKey <span style="color:#f92672">=</span> REDIS_INVENTORY_KEY <span style="color:#f92672">+</span> product.<span style="color:#a6e22e">getProductId</span>();
+</span></span><span style="display:flex;"><span>                Integer stock <span style="color:#f92672">=</span> (Integer) redisTemplate.<span style="color:#a6e22e">opsForValue</span>().<span style="color:#a6e22e">get</span>(redisKey);
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (stock <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> stock <span style="color:#f92672">&lt;</span> product.<span style="color:#a6e22e">getQuantity</span>()) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>; <span style="color:#75715e">// Insufficient inventory</span>
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Deduct locked inventory in Redis (real-time sync)</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (ProductDTO product : dto.<span style="color:#a6e22e">getProductList</span>()) {
+</span></span><span style="display:flex;"><span>                String redisKey <span style="color:#f92672">=</span> REDIS_INVENTORY_KEY <span style="color:#f92672">+</span> product.<span style="color:#a6e22e">getProductId</span>();
+</span></span><span style="display:flex;"><span>                redisTemplate.<span style="color:#a6e22e">opsForValue</span>().<span style="color:#a6e22e">decrement</span>(redisKey, product.<span style="color:#a6e22e">getQuantity</span>());
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">// Record locked inventory for later deduction or release</span>
+</span></span><span style="display:flex;"><span>                redisTemplate.<span style="color:#a6e22e">opsForHash</span>().<span style="color:#a6e22e">put</span>(REDIS_LOCK_KEY <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;record&#34;</span>, dto.<span style="color:#a6e22e">getOrderId</span>() <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;:&#34;</span> <span style="color:#f92672">+</span> product.<span style="color:#a6e22e">getProductId</span>(), product.<span style="color:#a6e22e">getQuantity</span>());
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">catch</span> (Exception e) {
+</span></span><span style="display:flex;"><span>            log.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Inventory lock failed for order: {}&#34;</span>, dto.<span style="color:#a6e22e">getOrderId</span>(), e);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">finally</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (lock.<span style="color:#a6e22e">isHeldByCurrentThread</span>()) {
+</span></span><span style="display:flex;"><span>                lock.<span style="color:#a6e22e">unlock</span>();
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Deduct inventory after e-commerce order payment</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Transactional</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">deductInventory</span>(String orderId) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Get locked inventory record</span>
+</span></span><span style="display:flex;"><span>        Map<span style="color:#f92672">&lt;</span>Object, Object<span style="color:#f92672">&gt;</span> lockedRecords <span style="color:#f92672">=</span> redisTemplate.<span style="color:#a6e22e">opsForHash</span>().<span style="color:#a6e22e">entries</span>(REDIS_LOCK_KEY <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;record&#34;</span>);
+</span></span><span style="display:flex;"><span>        List<span style="color:#f92672">&lt;</span>InventoryUpdateDTO<span style="color:#f92672">&gt;</span> updateList <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;&gt;</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Update database inventory and release lock record</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (Map.<span style="color:#a6e22e">Entry</span><span style="color:#f92672">&lt;</span>Object, Object<span style="color:#f92672">&gt;</span> entry : lockedRecords.<span style="color:#a6e22e">entrySet</span>()) {
+</span></span><span style="display:flex;"><span>            String key <span style="color:#f92672">=</span> (String) entry.<span style="color:#a6e22e">getKey</span>();
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (key.<span style="color:#a6e22e">startsWith</span>(orderId <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;:&#34;</span>)) {
+</span></span><span style="display:flex;"><span>                String productId <span style="color:#f92672">=</span> key.<span style="color:#a6e22e">split</span>(<span style="color:#e6db74">&#34;:&#34;</span>)<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>                Integer quantity <span style="color:#f92672">=</span> (Integer) entry.<span style="color:#a6e22e">getValue</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">// Update MySQL inventory (e-commerce data consistency)</span>
+</span></span><span style="display:flex;"><span>                InventoryUpdateDTO updateDTO <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> InventoryUpdateDTO();
+</span></span><span style="display:flex;"><span>                updateDTO.<span style="color:#a6e22e">setProductId</span>(productId);
+</span></span><span style="display:flex;"><span>                updateDTO.<span style="color:#a6e22e">setDeductQuantity</span>(quantity);
+</span></span><span style="display:flex;"><span>                updateList.<span style="color:#a6e22e">add</span>(updateDTO);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">// Remove lock record from Redis</span>
+</span></span><span style="display:flex;"><span>                redisTemplate.<span style="color:#a6e22e">opsForHash</span>().<span style="color:#a6e22e">delete</span>(REDIS_LOCK_KEY <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;record&#34;</span>, key);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (updateList.<span style="color:#a6e22e">isEmpty</span>()) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Batch update inventory in MySQL (e-commerce efficiency optimization)</span>
+</span></span><span style="display:flex;"><span>        inventoryMapper.<span style="color:#a6e22e">batchDeductInventory</span>(updateList);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Publish inventory update event for e-commerce search sync</span>
+</span></span><span style="display:flex;"><span>        kafkaTemplate.<span style="color:#a6e22e">send</span>(<span style="color:#e6db74">&#34;ecommerce-inventory-events&#34;</span>, JSON.<span style="color:#a6e22e">toJSONString</span>(<span style="color:#66d9ef">new</span> InventoryUpdatedEvent(updateList)));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Release locked inventory for cancelled e-commerce orders</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@Transactional</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">releaseInventory</span>(String orderId) {
+</span></span><span style="display:flex;"><span>        Map<span style="color:#f92672">&lt;</span>Object, Object<span style="color:#f92672">&gt;</span> lockedRecords <span style="color:#f92672">=</span> redisTemplate.<span style="color:#a6e22e">opsForHash</span>().<span style="color:#a6e22e">entries</span>(REDIS_LOCK_KEY <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;record&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (Map.<span style="color:#a6e22e">Entry</span><span style="color:#f92672">&lt;</span>Object, Object<span style="color:#f92672">&gt;</span> entry : lockedRecords.<span style="color:#a6e22e">entrySet</span>()) {
+</span></span><span style="display:flex;"><span>            String key <span style="color:#f92672">=</span> (String) entry.<span style="color:#a6e22e">getKey</span>();
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (key.<span style="color:#a6e22e">startsWith</span>(orderId <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;:&#34;</span>)) {
+</span></span><span style="display:flex;"><span>                String productId <span style="color:#f92672">=</span> key.<span style="color:#a6e22e">split</span>(<span style="color:#e6db74">&#34;:&#34;</span>)<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>                Integer quantity <span style="color:#f92672">=</span> (Integer) entry.<span style="color:#a6e22e">getValue</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">// Restore inventory in Redis (real-time sync)</span>
+</span></span><span style="display:flex;"><span>                String redisKey <span style="color:#f92672">=</span> REDIS_INVENTORY_KEY <span style="color:#f92672">+</span> productId;
+</span></span><span style="display:flex;"><span>                redisTemplate.<span style="color:#a6e22e">opsForValue</span>().<span style="color:#a6e22e">increment</span>(redisKey, quantity);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">// Remove lock record from Redis</span>
+</span></span><span style="display:flex;"><span>                redisTemplate.<span style="color:#a6e22e">opsForHash</span>().<span style="color:#a6e22e">delete</span>(REDIS_LOCK_KEY <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;record&#34;</span>, key);
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Publish inventory release event for e-commerce search sync</span>
+</span></span><span style="display:flex;"><span>        kafkaTemplate.<span style="color:#a6e22e">send</span>(<span style="color:#e6db74">&#34;ecommerce-inventory-events&#34;</span>, JSON.<span style="color:#a6e22e">toJSONString</span>(<span style="color:#66d9ef">new</span> InventoryReleasedEvent(orderId)));
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h1 id="6-technical-reflection">6 Technical Reflection<a hidden class="anchor" aria-hidden="true" href="#6-technical-reflection">#</a></h1>
+<p>This project helped me understand how a real e-commerce system operates as an integrated business infrastructure rather than isolated services. I gained practical insight into how transaction processing, inventory coordination, and logistics workflows must be aligned to support end-to-end business operations.</p>
+<p>I observed the tradeoff between system consistency and performance in production environments, where asynchronous processing, caching, and event-driven design were used to improve scalability while accepting eventual consistency in certain workflows.</p>
+<p>The experience also highlighted the importance of balancing technical design with business requirements, especially in areas such as order fulfillment efficiency, inventory accuracy, and system responsiveness.</p>
+<p>Overall, it strengthened my understanding of how information systems support real-world operational decision-making across multiple business entities.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/projects/coldchain/">
+    <span class="title">« Prev</span>
+    <span>Cold Chain Logistics System</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Kevin&#39;s Profile</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

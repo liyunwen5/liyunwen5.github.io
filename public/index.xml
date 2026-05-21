@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kevin&#39;s Profile</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Kevin&#39;s Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SF Express Courier Manager System</title>
+      <link>http://localhost:1313/projects/sf-express-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sf-express-manager/</guid>
+      <description>Focused on aligning enterprise system architecture with operational workflows, business scalability, and organizational efficiency.</description>
+    </item>
+    <item>
+      <title>Cold Chain Logistics System</title>
+      <link>http://localhost:1313/projects/yunda-coldchain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/yunda-coldchain/</guid>
+      <description>Participated in designing scalable enterprise systems integrating event-driven architecture, distributed services, and real-time data processing</description>
+    </item>
+    <item>
+      <title>ZTO Jingxuan E-Commerce System</title>
+      <link>http://localhost:1313/projects/zto-jingxuan-ecommerce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/zto-jingxuan-ecommerce/</guid>
+      <description>Designed and implemented core business modules for enterprise logistics workflows, focusing on backend service development, database modeling, and API integration</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
+&lt;h2 id=&#34;growth-from-backend-engineering-to-systems-thinking&#34;&gt;Growth From Backend Engineering to Systems Thinking&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/growthjourney.png&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;h2 id=&#34;engineering-growth-journey&#34;&gt;Engineering Growth Journey&lt;/h2&gt;
+&lt;p&gt;Over the past 10 years, I have grown from a backend developer focused on feature implementation into an engineer capable of designing distributed systems and thinking from both technical and business perspectives.&lt;/p&gt;
+&lt;p&gt;My experience includes enterprise systems involving:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;logistics platforms&lt;/li&gt;
+&lt;li&gt;IoT and real-time monitoring systems&lt;/li&gt;
+&lt;li&gt;event-driven architecture&lt;/li&gt;
+&lt;li&gt;scalable backend services&lt;/li&gt;
+&lt;li&gt;compliance-sensitive operational systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Through these projects, I gradually shifted my focus from coding individual modules to understanding how large-scale systems support operational efficiency, business workflows, and organizational scalability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/</guid>
+      <description>&lt;h1 id=&#34;experience&#34;&gt;Experience&lt;/h1&gt;
+&lt;hr&gt;
+&lt;div style=&#34;display:flex; align-items:flex-start; gap:20px; margin-bottom:40px;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/images/sf-logo.png&#34; width=&#34;72&#34;&gt;
+&lt;div&gt;
+&lt;h2 id=&#34;software-engineering-lead&#34;&gt;Software Engineering Lead&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sf-express.com/chn/en/about/&#34;&gt;SF Express&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+Mar 2021 – Sep 2025&lt;/p&gt;
+&lt;h3 id=&#34;scale&#34;&gt;Scale&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Largest integrated logistics provider in Asia&lt;/li&gt;
+&lt;li&gt;Fortune Global 500 company&lt;/li&gt;
+&lt;li&gt;140,000+ employees worldwide&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Worked on architectural design of distributed systems across:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;e-commerce&lt;/li&gt;
+&lt;li&gt;waybill fulfillment&lt;/li&gt;
+&lt;li&gt;warehousing&lt;/li&gt;
+&lt;li&gt;transportation&lt;/li&gt;
+&lt;li&gt;last-mile delivery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Defined service boundaries and data structures to support coordination among heterogeneous operational systems.&lt;/p&gt;
+&lt;p&gt;Participated in architectural decision-making involving trade-offs between:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;scalability&lt;/li&gt;
+&lt;li&gt;consistency&lt;/li&gt;
+&lt;li&gt;cross-system coordination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;within distributed environments.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
