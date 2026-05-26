@@ -397,7 +397,7 @@ public interface AnomalyDetectionStrategy {
     AnomalyResult evaluate(TemperatureReading reading);
 }
 ```
-#### 2. Strategy Interface
+#### 2. Strategy Abstract Class
 ```java
 import java.time.Duration;
 import java.time.LocalDateTime;

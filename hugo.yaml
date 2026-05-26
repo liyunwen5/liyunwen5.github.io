@@ -1,6 +1,6 @@
 baseURL: 'https://liyunwen5.github.io/'
 languageCode: 'en-us'
-title: 'Kevin''s Profile'
+title: 'Kevin''s Portfolio'
 theme: 'PaperMod'
 
 markup:
@@ -13,6 +13,7 @@ params:
   ShowShareButtons: false
   ShowPostNavLinks: yes
   ShowBreadCrumbs: true
+  mainSections: []
 
 menu:
   main:
@@ -21,15 +22,17 @@ menu:
       url: /
       weight: 1
 
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 2
-
     - identifier: experience
       name: Experience
       url: /experience/
+      weight: 2
+
+    - identifier: projects
+      name: Projects
+      url: /projects/
       weight: 3
+
+
 
     - identifier: about
       name: About

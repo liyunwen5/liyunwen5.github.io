@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Kevin&#39;s Profile</title>
+    <title>Kevin&#39;s Portfolio</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Kevin&#39;s Profile</description>
+    <description>Recent content on Kevin&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -27,6 +27,28 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/zto-jingxuan-ecommerce/</guid>
       <description>Designed and implemented core business modules for enterprise logistics workflows, focusing on backend service development, database modeling, and API integration</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/_index_myown_version_backup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/_index_myown_version_backup/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/profile.png&#34; width=&#34;180&#34; style=&#34;border-radius:50%;&#34;&gt;
+&lt;h1 id=&#34;kevin-li&#34;&gt;Kevin Li&lt;/h1&gt;
+&lt;h3 id=&#34;software-engineer--backend--distributed-systems&#34;&gt;Software Engineer | Backend &amp;amp; Distributed Systems&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Enterprise backend engineer with 10+ years of experience across 3 leading technology companies.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Engineered 8+ internet-scale operational systems supporting 1M+ DAU and 10M+ daily orders&lt;/li&gt;
+&lt;li&gt;Focused on scalable architecture, reliability, and long-term maintainability&lt;/li&gt;
+&lt;li&gt;Continuously exploring distributed systems, cloud technologies, and modern software engineering practices&lt;/li&gt;
+&lt;li&gt;Preparing for graduate study in Computer Science, Information Systems, and Software Engineering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;enterprise-experience&#34;&gt;Enterprise Experience&lt;/h2&gt;
+&lt;h3 id=&#34;courier-manager-system&#34;&gt;&lt;a href=&#34;./projects/sf-express-manager/index.html&#34;&gt;Courier Manager System&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;👨‍💻 Backend Developer &amp;amp; Business Architecture Contributor&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>

@@ -8,3 +8,16 @@ details a:hover {
     text-decoration: underline;
     opacity: 1;
 }
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(80px);
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
