@@ -2,7 +2,7 @@
 ## Growth From Backend Engineering to Systems Thinking
 <img src="/images/growthjourney.png"></img>
 
-## Engineering Growth Journey
+## Engineering Growth Trajectory
 
 Over the past 10 years, I have grown from a backend developer focused on feature implementation into an engineer capable of designing distributed systems and thinking from both technical and business perspectives.
 

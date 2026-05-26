@@ -14,6 +14,8 @@ params:
   ShowPostNavLinks: yes
   ShowBreadCrumbs: true
   mainSections: []
+  assets:
+    favicon: "/images/favicon.ico"
 
 menu:
   main:
