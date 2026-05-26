@@ -16,8 +16,12 @@ details a:hover {
     backdrop-filter: blur(80px);
 }
 
-.tech-stack {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+/* add for picture render effect to avoid it revealing from top to bottom */
+img {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+img.loaded {
+    opacity: 1;
 }

@@ -11,7 +11,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.f9b286dc642c38b14facaeb0227f4cd4e2c191917524e6a5f0d70278d72a816d.css" integrity="sha256-&#43;bKG3GQsOLFPrK6wIn9M1OLBkZF1JOal8NcCeNcqgW0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.aa8b03c5a8af117d9cdb32ba90a4fa29647d8d405af906cfe368866f98462f2f.css" integrity="sha256-qosDxaivEX2c2zK6kKT6KWR9jUBa&#43;QbP42iGb5hGLy8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/images/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -245,7 +245,11 @@
         <polyline points="17 11 12 6 7 11"></polyline>
         <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
-</a>
+</a><script>
+document.querySelectorAll("img").forEach(img => {
+    img.onload = () => img.classList.add("loaded");
+});
+</script>
 
 <script>
     let menu = document.getElementById('menu');

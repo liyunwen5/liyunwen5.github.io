@@ -1,3 +1,8 @@
 {{- /* Footer custom content area start */ -}}
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
 {{- /* Footer custom content area end */ -}}
+<script>
+document.querySelectorAll("img").forEach(img => {
+    img.onload = () => img.classList.add("loaded");
+});
+</script>
