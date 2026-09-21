@@ -15,7 +15,7 @@
 
 - Focused on scalable architecture, reliability, and long-term maintainability
 - Continuously exploring distributed systems, cloud technologies, and modern software engineering practices
-- Preparing for graduate study in Computer Science, Information Systems, and Software Engineering
+- Preparing for **a senior software developer** position in Ireland
 
 ---
 

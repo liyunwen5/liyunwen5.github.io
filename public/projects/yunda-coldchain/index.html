@@ -414,34 +414,34 @@ D4 --&gt; B3
 D4 --&gt; B4
 </code></pre><h3 id="key-services">Key Services<a hidden class="anchor" aria-hidden="true" href="#key-services">#</a></h3>
 <table>
-  <thead>
-      <tr>
-          <th>Component</th>
-          <th>Description</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>IoT Gateway Layer</td>
-          <td>Normalizes sensor protocols</td>
-      </tr>
-      <tr>
-          <td>Event Ingestion Service</td>
-          <td>Receives and validates incoming telemetry</td>
-      </tr>
-      <tr>
-          <td>Stream Processing Engine</td>
-          <td>Processes events in real time</td>
-      </tr>
-      <tr>
-          <td>Anomaly Detection Service</td>
-          <td>Detects temperature violations</td>
-      </tr>
-      <tr>
-          <td>Storage Layer</td>
-          <td>Combines time-series, relational, and event log storage</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Component</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>IoT Gateway Layer</td>
+					<td>Normalizes sensor protocols</td>
+			</tr>
+			<tr>
+					<td>Event Ingestion Service</td>
+					<td>Receives and validates incoming telemetry</td>
+			</tr>
+			<tr>
+					<td>Stream Processing Engine</td>
+					<td>Processes events in real time</td>
+			</tr>
+			<tr>
+					<td>Anomaly Detection Service</td>
+					<td>Detects temperature violations</td>
+			</tr>
+			<tr>
+					<td>Storage Layer</td>
+					<td>Combines time-series, relational, and event log storage</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="5-data-architecture--event-model">5. Data Architecture &amp; Event Model<a hidden class="anchor" aria-hidden="true" href="#5-data-architecture--event-model">#</a></h2>
@@ -536,73 +536,73 @@ COMPLIANCE -. anti-corruption layer .-&gt; SCM
 TELEMETRY -. schema normalization .-&gt; COMPLIANCE
 </code></pre><h3 id="key-information-flow-table">Key Information Flow Table<a hidden class="anchor" aria-hidden="true" href="#key-information-flow-table">#</a></h3>
 <table>
-  <thead>
-      <tr>
-          <th>Stage</th>
-          <th>Information Flow</th>
-          <th>Participating Domains</th>
-          <th>Core System Responsibility</th>
-          <th>Complexity Handled</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>1</td>
-          <td>Real-time sensor telemetry ingestion</td>
-          <td>IoT Devices, Gateway Layer</td>
-          <td>Collect and normalize heterogeneous device protocols</td>
-          <td>High-frequency distributed telemetry streams</td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>Event validation and enrichment</td>
-          <td>Event Ingestion Service, Shipment Context</td>
-          <td>Validate incoming data and associate telemetry with shipment entities</td>
-          <td>Incomplete, delayed, or duplicated event handling</td>
-      </tr>
-      <tr>
-          <td>3</td>
-          <td>Real-time stream processing</td>
-          <td>Stream Processing Engine</td>
-          <td>Continuously process large-scale temperature and logistics events</td>
-          <td>Stateful event aggregation and temporal correlation</td>
-      </tr>
-      <tr>
-          <td>4</td>
-          <td>Compliance rule evaluation</td>
-          <td>Compliance Context</td>
-          <td>Evaluate temperature thresholds, transport duration, and regulatory constraints</td>
-          <td>Dynamic rule execution across distributed shipment states</td>
-      </tr>
-      <tr>
-          <td>5</td>
-          <td>Anomaly and violation detection</td>
-          <td>Anomaly Detection Service, Alerting Context</td>
-          <td>Detect temperature excursions and operational abnormalities</td>
-          <td>Real-time exception detection under continuous event flow</td>
-      </tr>
-      <tr>
-          <td>6</td>
-          <td>Cross-domain event propagation</td>
-          <td>Shipment, Compliance, Alerting Contexts</td>
-          <td>Coordinate loosely coupled business domains through asynchronous events</td>
-          <td>Distributed consistency and event-driven orchestration</td>
-      </tr>
-      <tr>
-          <td>7</td>
-          <td>Multi-model data persistence</td>
-          <td>Time-Series DB, Relational DB, Event Store</td>
-          <td>Persist telemetry, shipment metadata, and immutable audit records</td>
-          <td>Heterogeneous storage optimization and traceability</td>
-      </tr>
-      <tr>
-          <td>8</td>
-          <td>Historical analytics and traceability</td>
-          <td>Analytics &amp; Audit Contexts</td>
-          <td>Support operational reporting, compliance auditing, and event replay</td>
-          <td>Long-term analytical querying across large-scale event histories</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Stage</th>
+					<th>Information Flow</th>
+					<th>Participating Domains</th>
+					<th>Core System Responsibility</th>
+					<th>Complexity Handled</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td>Real-time sensor telemetry ingestion</td>
+					<td>IoT Devices, Gateway Layer</td>
+					<td>Collect and normalize heterogeneous device protocols</td>
+					<td>High-frequency distributed telemetry streams</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>Event validation and enrichment</td>
+					<td>Event Ingestion Service, Shipment Context</td>
+					<td>Validate incoming data and associate telemetry with shipment entities</td>
+					<td>Incomplete, delayed, or duplicated event handling</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td>Real-time stream processing</td>
+					<td>Stream Processing Engine</td>
+					<td>Continuously process large-scale temperature and logistics events</td>
+					<td>Stateful event aggregation and temporal correlation</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td>Compliance rule evaluation</td>
+					<td>Compliance Context</td>
+					<td>Evaluate temperature thresholds, transport duration, and regulatory constraints</td>
+					<td>Dynamic rule execution across distributed shipment states</td>
+			</tr>
+			<tr>
+					<td>5</td>
+					<td>Anomaly and violation detection</td>
+					<td>Anomaly Detection Service, Alerting Context</td>
+					<td>Detect temperature excursions and operational abnormalities</td>
+					<td>Real-time exception detection under continuous event flow</td>
+			</tr>
+			<tr>
+					<td>6</td>
+					<td>Cross-domain event propagation</td>
+					<td>Shipment, Compliance, Alerting Contexts</td>
+					<td>Coordinate loosely coupled business domains through asynchronous events</td>
+					<td>Distributed consistency and event-driven orchestration</td>
+			</tr>
+			<tr>
+					<td>7</td>
+					<td>Multi-model data persistence</td>
+					<td>Time-Series DB, Relational DB, Event Store</td>
+					<td>Persist telemetry, shipment metadata, and immutable audit records</td>
+					<td>Heterogeneous storage optimization and traceability</td>
+			</tr>
+			<tr>
+					<td>8</td>
+					<td>Historical analytics and traceability</td>
+					<td>Analytics &amp; Audit Contexts</td>
+					<td>Support operational reporting, compliance auditing, and event replay</td>
+					<td>Long-term analytical querying across large-scale event histories</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="sequence--lifecycle-flow-diagram">Sequence &amp; Lifecycle Flow Diagram<a hidden class="anchor" aria-hidden="true" href="#sequence--lifecycle-flow-diagram">#</a></h3>
 <pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">sequenceDiagram

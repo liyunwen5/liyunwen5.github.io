@@ -271,50 +271,50 @@ flowchart TD
     C2 --&gt; E1 &amp; E2
 </code></pre><h3 id="22-architecture--engineering-highlights">2.2 Architecture &amp; Engineering Highlights<a hidden class="anchor" aria-hidden="true" href="#22-architecture--engineering-highlights">#</a></h3>
 <table>
-  <thead>
-      <tr>
-          <th>Area</th>
-          <th>Technical Design</th>
-          <th>Engineering Consideration</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Distributed Service Architecture</td>
-          <td>Modular business services for users, products, orders, payments, and inventory</td>
-          <td>Improved scalability, maintainability, and service isolation</td>
-      </tr>
-      <tr>
-          <td>Asynchronous Event Processing</td>
-          <td>Kafka-based event queue for order and inventory workflows</td>
-          <td>Increased throughput and reduced service coupling</td>
-      </tr>
-      <tr>
-          <td>High-Performance Data Access</td>
-          <td>Redis caching layer</td>
-          <td>Reduced database pressure while accepting short-term eventual consistency</td>
-      </tr>
-      <tr>
-          <td>Search Infrastructure</td>
-          <td>Elasticsearch-powered product retrieval</td>
-          <td>Enabled efficient multi-dimensional search with near real-time indexing</td>
-      </tr>
-      <tr>
-          <td>Hybrid Data Storage</td>
-          <td>MySQL for transactional data and MongoDB for flexible business data</td>
-          <td>Balanced strong consistency and schema adaptability</td>
-      </tr>
-      <tr>
-          <td>Real-Time Communication</td>
-          <td>WebSocket gateway for operational updates</td>
-          <td>Enhanced real-time interaction and synchronization</td>
-      </tr>
-      <tr>
-          <td>Dynamic Configuration Governance</td>
-          <td>Centralized configuration management</td>
-          <td>Improved operational flexibility and deployment efficiency</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Area</th>
+					<th>Technical Design</th>
+					<th>Engineering Consideration</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Distributed Service Architecture</td>
+					<td>Modular business services for users, products, orders, payments, and inventory</td>
+					<td>Improved scalability, maintainability, and service isolation</td>
+			</tr>
+			<tr>
+					<td>Asynchronous Event Processing</td>
+					<td>Kafka-based event queue for order and inventory workflows</td>
+					<td>Increased throughput and reduced service coupling</td>
+			</tr>
+			<tr>
+					<td>High-Performance Data Access</td>
+					<td>Redis caching layer</td>
+					<td>Reduced database pressure while accepting short-term eventual consistency</td>
+			</tr>
+			<tr>
+					<td>Search Infrastructure</td>
+					<td>Elasticsearch-powered product retrieval</td>
+					<td>Enabled efficient multi-dimensional search with near real-time indexing</td>
+			</tr>
+			<tr>
+					<td>Hybrid Data Storage</td>
+					<td>MySQL for transactional data and MongoDB for flexible business data</td>
+					<td>Balanced strong consistency and schema adaptability</td>
+			</tr>
+			<tr>
+					<td>Real-Time Communication</td>
+					<td>WebSocket gateway for operational updates</td>
+					<td>Enhanced real-time interaction and synchronization</td>
+			</tr>
+			<tr>
+					<td>Dynamic Configuration Governance</td>
+					<td>Centralized configuration management</td>
+					<td>Improved operational flexibility and deployment efficiency</td>
+			</tr>
+	</tbody>
 </table>
 <h1 id="3-my-contribution">3 My Contribution<a hidden class="anchor" aria-hidden="true" href="#3-my-contribution">#</a></h1>
 <p>I joined the project during the early stage and participated in the maintenance and iterative development of core business modules within a production-grade distributed system.</p>
