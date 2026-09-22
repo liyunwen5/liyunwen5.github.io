@@ -18,15 +18,17 @@ Through these projects, I gradually shifted my focus from coding individual modu
 
 ---
 
-## Why MS in Information Systems
+## Why Choose a Job in Ireland
 
-As my engineering experience expanded, I became increasingly interested in the intersection between technology, systems, and business strategy.
+With around 10 years of experience as a software engineer, I want to continue developing my career in an international technology environment. Ireland has a strong technology sector and is home to many global technology companies, providing opportunities to work on large-scale and innovative software systems.
 
-Pursuing an MS in Information Systems will help me strengthen my understanding of:
+Working in Ireland will allow me to:
 
 - enterprise architecture  
-- business analysis  
-- information systems strategy  
-- data-driven decision systems  
+- apply my software engineering experience in an international environment
+- develop my skills in modern technologies and enterprise systems
+- gain experience working with diverse and multicultural teams
+- combine my software engineering background with the knowledge gained from my Master's degree
+- contribute to the development of scalable and intelligent enterprise systems  
 
-My goal is to bridge engineering implementation with business-oriented system design, and contribute to building scalable, intelligent enterprise systems in the future.
+My goal is to build a long-term career as a senior software engineer in Ireland, combining my previous engineering experience with my Master's education to contribute to innovative technology projects and enterprise solutions..
