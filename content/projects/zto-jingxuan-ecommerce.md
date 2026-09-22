@@ -23,7 +23,7 @@ A Unified Digital Commerce and Logistics Management System
 </span>
 
 </div>
-ZTO Jingxuan is a comprehensive e-commerce information system built upon the logistics infrastructure of ZTO Express. The platform integrates business transactions, inventory scheduling, payment processing, and logistics coordination into a unified distributed system serving merchants, consumers, and operational administrators.
+ZTO Jingxuan is a comprehensive e-commerce software built upon the logistics infrastructure of ZTO Express. The platform integrates business transactions, inventory scheduling, payment processing, and logistics coordination into a unified distributed system serving merchants, consumers, and operational administrators.
 
 
 # 1 Project Overview
@@ -419,5 +419,5 @@ I observed the tradeoff between system consistency and performance in production
 
 The experience also highlighted the importance of balancing technical design with business requirements, especially in areas such as order fulfillment efficiency, inventory accuracy, and system responsiveness.
 
-Overall, it strengthened my understanding of how information systems support real-world operational decision-making across multiple business entities.
+Overall, it strengthened my understanding of how software support real-world operational decision-making across multiple business entities.
 
